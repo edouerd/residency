@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "nav-overview.html" %}
+<article class="z-999 cf pa2 pa4-m pt5 pb6-l ph6-l mw9">
+  <div class="fn w-100">
+    <p class="f5 f4-l lh-copy measure mb5">
+      You are here attempts to straddle the line between an artist residency and a full-time freelance position.</p>
+
+      <p class="f5 f4-l lh-copy measure">Tumblr is founded on the promise of limitless expression. Do, act, say, how you feel. We produce the tools and a stage, and our community uses them to spread their message to the world.</p>
+
+      <p class="f5 f4-l lh-copy measure">You are here explores a new way to build more tools, and more stages, tailored to you.</p>
+
+      <p class="f5 f4-l lh-copy measure">We have a small staff of full-time designers and writers, but we only represent the smallest fraction of the creativity and talent on Tumblr.</p>
+
+      <p class="f5 f4-l lh-copy measure">From Activists and organizers to photographers and 3D specialists, You are here hopes to work with the the most thoughtful voices in the community.</p>
+
+      <p class="f5 f4-l lh-copy measure">Interested? <a class="link red" href="{% url '/apply.html' %}">Apply</a>.</p>
+  </div>
+</article>
+{% endblock content%}
